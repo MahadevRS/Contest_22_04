@@ -1,0 +1,181 @@
+*{
+   font-family: Montserrat;
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: black;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #FCAF02;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+.startup{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.links > a{
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+}
+
+section{
+    margin: 75px 35px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.intro-left > h1{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.intro-left > p{
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.intro-left > button{
+    font-weight: 700;
+    font-size: 32px;
+    background: #FCAF02;
+    border-radius: 500px;
+    padding: 8px 50px;
+
+}
+.intro-right > img{
+    width: 697px;
+    height: 482px;
+}
+
+.contactus{
+    color:#FCAF02;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contactus > h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+::placeholder{
+    color:#FCAF02; 
+}
+.contactus > div > .name{
+    font-weight: 400;
+    font-size: 28px;
+    width: 97%;
+    background-color: black;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    padding: 5px 20px;
+    
+}
+.contactus > div > .email{
+    font-weight: 400;
+    font-size: 28px;
+    width: 97%;
+    background-color: black;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.contactus > .line3 >input{
+    width: 45%;
+    font-weight: 400;
+    font-size: 28px;
+    background-color: black;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.contactus > .line3{
+    display: flex;
+    justify-content: space-between;
+}
+.contactus > .submit >button{
+    font-weight: 700;
+    font-size: 32px;
+    background: #FCAF02;
+    border-radius: 500px;
+    padding: 8px 50px;
+}
+
+.contactus > .submit{
+    align-self: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+table{
+    color: #FCAF02;
+    width:100%;
+    font-weight: 400;
+    font-size: 28px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td{
+    padding: 15px 50px;
+}
+th{
+    border: 2px solid #FCAF02;
+}
+td{
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+}
+
+tfoot{
+    color: black;
+    background-color: #FCAF02;
+}
+
+.foot{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.foot1{
+    border-right: 2px solid black;
+}
+.thname, .desc{
+    text-align: start;
+}
+.slno{
+    text-align: center;
+}
